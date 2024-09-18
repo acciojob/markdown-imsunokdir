@@ -18,7 +18,7 @@ const ViewMarkdown = () => {
   }
   return (
     <div className="view">
-      <ReactMarkdown>{markdown}</ReactMarkdown>
+      <ReactMarkdown className="preview">{markdown}</ReactMarkdown>
     </div>
   );
 };
