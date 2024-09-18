@@ -1,3 +1,7 @@
+html, body{
+    margin: 0;
+}
+
 h1 {
     color: #27aedb;
     text-align: center;
@@ -9,4 +13,23 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.app{
+    margin:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+}
+
+.write{
+    background-color: bisque;
+}
+.view{
+    background-color: azure;
+}
+
+.textarea{
+    height: 100%;
+    width: 100%;
 }

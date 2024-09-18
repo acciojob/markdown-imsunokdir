@@ -1,2 +1,15 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React from "react";
+import WriteMarkdown from "./WriteMarkdown";
+import ViewMarkdown from "./ViewMarkdown";
+import "../styles/App.css";
 
+const App = () => {
+  return (
+    <div className="app">
+      <WriteMarkdown />
+      <ViewMarkdown />
+    </div>
+  );
+};
+
+export default App;
